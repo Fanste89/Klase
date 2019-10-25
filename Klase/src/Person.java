@@ -1,7 +1,7 @@
 
 public class Person {
 
-	public String ime = "Nenad";
+	public String ime ;
 	public String prezime;
 	public int godiste;
 	
@@ -10,8 +10,30 @@ public class Person {
 	
 	public Car automobil;
 	
+	// prazan konstruktor
+	public Person () {
+		
+		
+	}
+	
+	public Person (String i, String p, int g) {
+	this.ime = i;
+	this.prezime = p;
+	this.godiste = g;
+	
+	}
 	
 	
+	
+	
+	
+    public void pozdravSvete () {
+	System.out.println(" Pozdrav svete ");
 
-	
+	}
+    
+    public void pozdrav(String imePozdravljaca, String prezimePozdravljaca) {
+    	System.out.println("Pozdrav od "  + imePozdravljaca+ " " + prezimePozdravljaca );
+    }
+    
 }
