@@ -2,28 +2,40 @@
 public class GlavnaKlasa {
 
 	public static void main(String[] args) {
+	
+	/*	Alat tool = new Alat ();
 		
-	Person p = new Person();
-	Person p1 = new Person ("Marko", "Markovic", 1987);
+		tool.pozdrav();
+		tool.pozdrav ("Mase");
+		
+		String i = "Pera";
+		String p = "Detlic";
+		int g = 15;
+		
+		
+	String name = 	tool.imeIprezime(i, p);
+	System.out.println(name);
+	
+	String brojGodina = tool.godine(g);
+	System.out.println(brojGodina);
+		
 	
 	
-   String ime = "Zoran";
-   String prezime = "Zoranic" ;
+	int prviBroj = 5;
+	int drugBroj = 9;
 	
-	
-	p.pozdravSvete ();
-	
-	p.pozdrav (p1.ime, p1.prezime);
-	
+	int zbirBrojeva = tool.saberi(prviBroj,drugBroj);
+	System.out.println(" zbir brojeva je " + zbirBrojeva );
 	
 	
 	
 	
 	
+	double x = Alat.kvadratBroja(7);
+	System.out.println(x);
+	*/
 	
-	
-	
-	
+		
 	
 	
 	
